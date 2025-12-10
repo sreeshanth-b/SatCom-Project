@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "satcom.example.App",
+            "projectName": "satcomapp"
+        },
+        {
+            "type": "java",
+            "name": "Run JavaFX Main",
+            "request": "launch",
+            "mainClass": "satcom.example.Main",
+            "vmArgs": "--module-path \"/home/shreeshanth/Downloads/javafx-sdk-17.0.17/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
